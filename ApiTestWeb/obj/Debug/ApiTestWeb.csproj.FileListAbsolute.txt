@@ -1,0 +1,6 @@
+c:\Users\mudasar\Documents\Visual Studio 2013\Projects\AngularApi\ApiTestWeb\bin\ApiTestWeb.dll.config
+c:\Users\mudasar\Documents\Visual Studio 2013\Projects\AngularApi\ApiTestWeb\bin\ApiTestWeb.dll
+c:\Users\mudasar\Documents\Visual Studio 2013\Projects\AngularApi\ApiTestWeb\bin\ApiTestWeb.pdb
+c:\Users\mudasar\Documents\Visual Studio 2013\Projects\AngularApi\ApiTestWeb\obj\Debug\ApiTestWeb.csprojResolveAssemblyReference.cache
+c:\Users\mudasar\Documents\Visual Studio 2013\Projects\AngularApi\ApiTestWeb\obj\Debug\ApiTestWeb.dll
+c:\Users\mudasar\Documents\Visual Studio 2013\Projects\AngularApi\ApiTestWeb\obj\Debug\ApiTestWeb.pdb

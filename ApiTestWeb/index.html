@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="apptest" >
+<head>
+    <title>Angular with Web-Api2 test</title>
+
+    <!--Bootstrap css-->
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="Content/loading-bar.min.css" rel="stylesheet" />
+
+    <!--Custom css-->
+    <link href="Content/app.css" rel="stylesheet" />
+
+
+</head>
+<body >
+    <!--nav-->
+    <header class="navbar navbar-default">
+        <div class="navbar-header">
+            <!--home-->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" ui-sref="main">iProblem</a>
+        </div>
+        <div class="navbar-collapse collapse navbar-responsive-collapse">
+            <!--collapsed version-->
+            <ul class="nav navbar-nav">
+                <li ui-sref-active="active"><a ui-sref="main">Home</a></li>
+                <li ui-sref-active="active"><a ui-sref="about">About</a></li>
+                <li ui-sref-active="active"><a ui-sref="contact">Contact</a></li>
+                <li ui-sref-active="active"><a ui-sref="people">People</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <!-- right aligned-->
+                <li ui-sref-active="active"><a ui-sref="login">Login</a></li>
+                <li ui-sref-active="active"><a ui-sref="register">Register</a></li>
+            </ul>
+        </div>
+
+    </header>
+
+    <!--main body-->
+    <div class="container">
+        <div ui-view></div>
+        
+
+        <!--footer -->
+        <hr />
+        <footer>
+            <p>Copyright iProblem</p>
+        </footer>
+    </div>
+
+    <!--Angular JS-->
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/angular-ui-router.min.js"></script>
+    <script src="Scripts/angular-sanitize.min.js"></script>
+    <script src="Scripts/angular-messages.min.js"></script>
+    <script src="Scripts/loading-bar.min.js"></script>
+    <script src="Scripts/angular-resource.min.js"></script>
+    
+
+    <!--Bootstrap-->
+    <script src="Scripts/jquery-2.1.3.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+
+    <!--Custom JS-->
+    <script src="app/app.js"></script>
+    <script src="app/app.config.js"></script>
+    <script src="app/services/peopleservice.js"></script>
+    <script src="app/controllers/peoplectrl.js"></script>
+
+</body>
+</html>
