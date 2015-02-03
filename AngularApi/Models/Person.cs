@@ -19,5 +19,7 @@ namespace AngularApi.Models
 
         public string BlogUrl { get; set; }
 
+        public string About { get; set; }
+
     }
 }

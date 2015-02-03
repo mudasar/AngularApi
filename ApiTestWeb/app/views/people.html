@@ -1,13 +1,13 @@
 ﻿<div class="row">
     <div class="col-lg-12">
         <h1>People</h1>
-
+        <a ui-sref="addperson" class="btn btn-primary">Add Member</a>
         <p>
             Here we'll need to design first page
         </p>
         <h3>All Team Members:</h3>
         <ul class="list-unstyled">
-            <li ng-repeat="person in people"><a target="_blank" href="{{person.blogUrl}}">{{person.name}}</a></li>
+            <li ng-repeat="person in people"><a ui-sref="persondetails({personId:person.id})">{{person.name}}</a>&nbsp;&nbsp;  <a ui-sref="editperson({personId:person.id})">edit</a></li>
         </ul>
     </div>
 </div>
