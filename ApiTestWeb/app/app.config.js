@@ -23,7 +23,18 @@
                 templateUrl: 'app/views/persondetails.html',
                 controller: 'PersonDetailCtrl',
                 resolve: {
-                    person: function (PeopleService, $stateParams) {
+                    personData: function (PeopleService, $stateParams) {
+                        var personId = $stateParams.personId;
+                        return PeopleService.get({ id: personId }).$promise;
+                    }
+                }
+            })
+            .state('editperson', {
+                url: '/editperson/:personId',
+                templateUrl: 'app/views/editperson.html',
+                controller: 'PersonDetailCtrl',
+                resolve: {
+                    personData: function(PeopleService, $stateParams) {
                         var personId = $stateParams.personId;
                         return PeopleService.get({ id: personId }).$promise;
                     }

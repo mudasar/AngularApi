@@ -73,6 +73,7 @@
     <Content Include="app\services\peopleservice.js" />
     <Content Include="app\views\about.html" />
     <Content Include="app\views\contact.html" />
+    <Content Include="app\views\editperson.html" />
     <Content Include="app\views\login.html" />
     <Content Include="app\views\main.html" />
     <Content Include="app\views\people.html" />
